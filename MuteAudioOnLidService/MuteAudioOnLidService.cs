@@ -1,4 +1,5 @@
-﻿using NAudio.CoreAudioApi;
+// All props go to https://github.com/rowandh/lidstatusservice.  This code is just a modification of that to fill a need we had.
+using NAudio.CoreAudioApi;
 using System;
 using System.ServiceProcess;
 
