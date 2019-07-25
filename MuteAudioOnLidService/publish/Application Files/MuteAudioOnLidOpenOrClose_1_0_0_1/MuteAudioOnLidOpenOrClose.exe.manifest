@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MuteAudioOnLidOpenOrClose.exe" version="1.0.0.1" publicKeyToken="6e1e95e565107901" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MuteAudioOnLidOpenOrClose" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MuteAudioOnLidOpenOrClose.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AudioSwitcher.AudioApi.dll" size="41472">
+      <assemblyIdentity name="AudioSwitcher.AudioApi" version="3.0.0.209" publicKeyToken="FDA5729E2DB3A64F" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Jv82T8pJbuEJPeWWZFyGcxwVbYHQJrXQIN5GsN8FNRM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AudioSwitcher.AudioApi.CoreAudio.dll" size="77824">
+      <assemblyIdentity name="AudioSwitcher.AudioApi.CoreAudio" version="3.0.0.209" publicKeyToken="FDA5729E2DB3A64F" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9Jb3T0jz27SZR07woGiUB5CHhxNCs+O8JUxZA+Suv5E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MuteAudioOnLidOpenOrClose.exe" size="10200">
+      <assemblyIdentity name="MuteAudioOnLidOpenOrClose" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MFRvwez+E9nfvIV9EckbsnJh32ROH2jY9iBHw4suLvo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NAudio.dll" size="507904">
+      <assemblyIdentity name="NAudio" version="1.8.5.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kiVMtUu92HX2lQwq+/4XwAG799zNQ9Q+r9t9m/7DWv4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MuteAudioOnLidOpenOrClose.exe.config" size="184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jWVCngsqgsEdPtxOoE7SAK7f6h1++LmE6IqOl8/1R3A=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MASTER\michael.long" issuerKeyHash="8031cd87781ed39408a8cab8c095a2d6411fb6de" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>gOMinMeblSJezaHWftH8U592mqtQFREJuZtks6O2L14=</DigestValue></Reference></SignedInfo><SignatureValue>gzicMJeWgrJ/3PPXwN5K60AeauGVNwVhxj/UXlskbfvVMd1x1dlJk8A89zF3OdISHuA/S3Ju+EfpRnRG0xbqgSdfIlInvA/nTUTYEQXZHBDobVCu/EKR8pxSXluFLpy/X/H1QrEfcFYQ+x/i48k9yxT4JXfWVf0nyA0I4SIBlIk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xUX7UNkmEclCqXKU7zvByr3mTUkbVzdKmzo93gHqGtI5hj54Rv7o+EDDLHWjM9PSYiPsPOwcoClgn7MS9AnjxIEFsT7hou/vZcS0pPJyg1xduW94+9y0pKwfqezfjc5VPYtPdYwc1SiDD8mMw20mvhW/6gQnjPnmB3EGi0X4LUk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5e2fb6a3b3649bb909111550ab9a769f53fcd17ed6a1cd5e22959bc79c22e380" Description="" Url=""><as:assemblyIdentity name="MuteAudioOnLidOpenOrClose.exe" version="1.0.0.1" publicKeyToken="6e1e95e565107901" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MASTER\michael.long</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZSt5iv7k88YiAtaEfVyZVTapqFT8B5LHuAgjyV/aFLM=</DigestValue></Reference></SignedInfo><SignatureValue>A7tFbDP7qthRsAditQZ3c3esaEWKbCc69uRz0iQo5KdGnRtJVCTWQ0TgZKNNGI/cU7P/GRvNO8JTSB7X1TYA9A+KfDT+Ck510VNpU2H7Nxf/XL5WQxNofBCaVT3zLLGGx5YvGiLqkvSH/a4OweDJN8wlCd474r4UIwm9uXh4UP8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xUX7UNkmEclCqXKU7zvByr3mTUkbVzdKmzo93gHqGtI5hj54Rv7o+EDDLHWjM9PSYiPsPOwcoClgn7MS9AnjxIEFsT7hou/vZcS0pPJyg1xduW94+9y0pKwfqezfjc5VPYtPdYwc1SiDD8mMw20mvhW/6gQnjPnmB3EGi0X4LUk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQerfauv8JO5xIgg8dADwKaDANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYATQBBAFMAVABFAFIAXABtAGkAYwBoAGEAZQBsAC4AbABvAG4AZzAeFw0xOTAyMTUxOTIzMjZaFw0yMDAyMTYwMTIzMjZaMDExLzAtBgNVBAMeJgBNAEEAUwBUAEUAUgBcAG0AaQBjAGgAYQBlAGwALgBsAG8AbgBnMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDFRftQ2SYRyUKpcpTvO8HKveZNSRtXN0qbOj3eAeoa0jmGPnhG/uj4QMMsdaMz09JiI+w87BygKWCfsxL0CePEgQWxPuGi7+9lxLSk8nKDXF25b3j73LSkrB+p7N+NzlU9i091jBzVKIMPyYzDbSa+Fb/qBCeM+eYHcQaLRfgtSQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACTsbQxINseQy4zP9Ch6OQyTPOUlJAnTiLw9rwnbIfV3JWAWX0ztZ5QfjlgLla4+7ah7K6gaxL9Sd1ctRGPKqM4+lBVFTTU+9fJM9jDPNEgER46JdOmCLK3Sf/3HPBNh2xIqc9l8J5YJ8xusRI5p8vBwbsc+JVZNFuV7kTAZWfDv</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,17 @@
+\\nt9\SupportServices\Mike_VS_Solutions\MuteAudioOnLidService\MuteAudioOnLidService\bin\x64\Debug\MuteAudioOnLidOpenOrClose.exe.config
+\\nt9\SupportServices\Mike_VS_Solutions\MuteAudioOnLidService\MuteAudioOnLidService\bin\x64\Debug\MuteAudioOnLidOpenOrClose.exe.manifest
+\\nt9\SupportServices\Mike_VS_Solutions\MuteAudioOnLidService\MuteAudioOnLidService\bin\x64\Debug\MuteAudioOnLidOpenOrClose.application
+\\nt9\SupportServices\Mike_VS_Solutions\MuteAudioOnLidService\MuteAudioOnLidService\bin\x64\Debug\MuteAudioOnLidOpenOrClose.exe
+\\nt9\SupportServices\Mike_VS_Solutions\MuteAudioOnLidService\MuteAudioOnLidService\bin\x64\Debug\MuteAudioOnLidOpenOrClose.pdb
+\\nt9\SupportServices\Mike_VS_Solutions\MuteAudioOnLidService\MuteAudioOnLidService\bin\x64\Debug\NAudio.dll
+\\nt9\SupportServices\Mike_VS_Solutions\MuteAudioOnLidService\MuteAudioOnLidService\bin\x64\Debug\NAudio.xml
+\\nt9\SupportServices\Mike_VS_Solutions\MuteAudioOnLidService\MuteAudioOnLidService\obj\x64\Debug\MuteAudioOnLidService.ProjectInstaller.resources
+\\nt9\SupportServices\Mike_VS_Solutions\MuteAudioOnLidService\MuteAudioOnLidService\obj\x64\Debug\MuteAudioOnLidService.MuteAudioOnLidService.resources
+\\nt9\SupportServices\Mike_VS_Solutions\MuteAudioOnLidService\MuteAudioOnLidService\obj\x64\Debug\MuteAudioOnLidService.csproj.GenerateResource.cache
+\\nt9\SupportServices\Mike_VS_Solutions\MuteAudioOnLidService\MuteAudioOnLidService\obj\x64\Debug\MuteAudioOnLidService.csproj.CoreCompileInputs.cache
+\\nt9\SupportServices\Mike_VS_Solutions\MuteAudioOnLidService\MuteAudioOnLidService\obj\x64\Debug\MuteAudioOnLidOpenOrClose.exe.manifest
+\\nt9\SupportServices\Mike_VS_Solutions\MuteAudioOnLidService\MuteAudioOnLidService\obj\x64\Debug\MuteAudioOnLidOpenOrClose.application
+\\nt9\SupportServices\Mike_VS_Solutions\MuteAudioOnLidService\MuteAudioOnLidService\obj\x64\Debug\MuteAudioOnLidService.csproj.CopyComplete
+\\nt9\SupportServices\Mike_VS_Solutions\MuteAudioOnLidService\MuteAudioOnLidService\obj\x64\Debug\MuteAudioOnLidOpenOrClose.exe
+\\nt9\SupportServices\Mike_VS_Solutions\MuteAudioOnLidService\MuteAudioOnLidService\obj\x64\Debug\MuteAudioOnLidOpenOrClose.pdb
+\\nt9\SupportServices\Mike_VS_Solutions\MuteAudioOnLidService\MuteAudioOnLidService\obj\x64\Debug\MuteAudioOnLidService.csprojAssemblyReference.cache
