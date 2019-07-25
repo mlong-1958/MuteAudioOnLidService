@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuteAudioOnLidService", "MuteAudioOnLidService\MuteAudioOnLidService.csproj", "{C4A94BB8-C4B8-49EF-A484-8CECB39AF583}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MuteAudioOnLidServiceInstaller", "MuteAudioOnLidServiceInstaller\MuteAudioOnLidServiceInstaller.vdproj", "{B3B01399-42CE-46FE-805A-5ECBE8A969F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4A94BB8-C4B8-49EF-A484-8CECB39AF583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A94BB8-C4B8-49EF-A484-8CECB39AF583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A94BB8-C4B8-49EF-A484-8CECB39AF583}.Debug|x64.ActiveCfg = Debug|x64
+		{C4A94BB8-C4B8-49EF-A484-8CECB39AF583}.Debug|x64.Build.0 = Debug|x64
+		{C4A94BB8-C4B8-49EF-A484-8CECB39AF583}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C4A94BB8-C4B8-49EF-A484-8CECB39AF583}.Debug|x86.Build.0 = Debug|Any CPU
+		{C4A94BB8-C4B8-49EF-A484-8CECB39AF583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A94BB8-C4B8-49EF-A484-8CECB39AF583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A94BB8-C4B8-49EF-A484-8CECB39AF583}.Release|x64.ActiveCfg = Release|x64
+		{C4A94BB8-C4B8-49EF-A484-8CECB39AF583}.Release|x64.Build.0 = Release|x64
+		{C4A94BB8-C4B8-49EF-A484-8CECB39AF583}.Release|x86.ActiveCfg = Release|Any CPU
+		{C4A94BB8-C4B8-49EF-A484-8CECB39AF583}.Release|x86.Build.0 = Release|Any CPU
+		{B3B01399-42CE-46FE-805A-5ECBE8A969F0}.Debug|Any CPU.ActiveCfg = Debug
+		{B3B01399-42CE-46FE-805A-5ECBE8A969F0}.Debug|x64.ActiveCfg = Debug
+		{B3B01399-42CE-46FE-805A-5ECBE8A969F0}.Debug|x64.Build.0 = Debug
+		{B3B01399-42CE-46FE-805A-5ECBE8A969F0}.Debug|x86.ActiveCfg = Debug
+		{B3B01399-42CE-46FE-805A-5ECBE8A969F0}.Release|Any CPU.ActiveCfg = Release
+		{B3B01399-42CE-46FE-805A-5ECBE8A969F0}.Release|x64.ActiveCfg = Release
+		{B3B01399-42CE-46FE-805A-5ECBE8A969F0}.Release|x64.Build.0 = Release
+		{B3B01399-42CE-46FE-805A-5ECBE8A969F0}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54EE1868-ED55-44BE-9AAD-773E63B50B9A}
+	EndGlobalSection
+EndGlobal
